@@ -1,8 +1,1 @@
-streamlit>=1.42.0
-pandas>=2.2.0
-numpy>=1.26.4
-plotly>=5.15.0
-pyarrow>=14.0.0
-requests>=2.31.0
-google-cloud-bigquery>=3.25.0
-apify-client==3.4.0
+
