@@ -1,1 +1,11 @@
+# Dependencias del pipeline y del dashboard
+# Versiones compatibles entre sí (NumPy 1.x + PyArrow 16 + Streamlit 1.40)
+pandas==2.0.1
+numpy==1.26.4
+pyarrow==16.1.0
+plotly==5.15.0
+streamlit==1.40.1
 
+# Pipeline de extracción / carga
+apify-client==3.4.0
+google-cloud-bigquery==3.47.0
