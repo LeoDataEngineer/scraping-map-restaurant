@@ -292,12 +292,16 @@ def show_table(df, pct_cols=(), num_cols=(), int_cols=(), drop=(), height=None):
         if label in data.columns:
             config[label] = st.column_config.NumberColumn(label, format="%d")
 
+    kwargs = {}
+    if height is not None:
+        kwargs["height"] = height
+
     st.dataframe(
         data,
         column_config=config,
         hide_index=True,
         use_container_width=True,
-        height=height,
+        **kwargs,
     )
 
 
